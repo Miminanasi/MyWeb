@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>ファイル送信ページ1</title>
+  </head>
+  <body>
+    <p><?php echo $_SESSION['name']; ?></p>
+    <form method="post" enctype="multipart/form-data" action="file1.php">
+      <input type="file" name="up">
+      <input type="submit" value="アップロード">
+    </form>
+  </body>
+</html>
